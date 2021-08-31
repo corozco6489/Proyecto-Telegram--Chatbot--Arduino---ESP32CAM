@@ -1,0 +1,23 @@
+{
+  "name": "telegram-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "carlos orozco",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "express": "^4.17.1",
+    "form-data": "^2.3.3",
+    "fs": "^0.0.1-security",
+    "ngrok": "^4.1.0",
+    "node-fetch": "^2.6.1",
+    "node-webshot": "^1.0.4",
+    "pi-camera": "^1.6.0",
+    "shell-exec": "^1.0.2",
+    "shelljs": "^0.8.4"
+  }
+}
