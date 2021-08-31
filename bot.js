@@ -3,7 +3,7 @@ const hoy = new Date();
 var SerialPort = require("serialport");
 const TelegramBot = require("node-telegram-bot-api");
 const url = "https://api.telegram.org/bot";
-const token = "1909985851:AAGz-B7Zq_RkcSstrYzF2ubRdEJ4HV1j8UE"; //Cambiar por el token de telegram
+const token = "ponertutoken"; //Cambiar por el token de telegram
 const bot = new TelegramBot(token, {
   polling: true,
 });
@@ -164,7 +164,7 @@ function camara() {
     let form = new FormData();
     form.append("photo", readStream);
     fetch(
-      `https://api.telegram.org/bot1909985851:AAGz-B7Zq_RkcSstrYzF2ubRdEJ4HV1j8UE/sendPhoto?chat_id=1709607424`,
+      `https://api.telegram.org/bot185828888:BBGz-B7Zq_Rfgdgdf82282E/sendPhoto?chat_id=18822844552`, //https://api.telegram.org/bot"+token+"/sendPhoto?chat_id="+chat_id
       {
         method: "POST",
         body: form,
